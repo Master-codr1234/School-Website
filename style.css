@@ -1,0 +1,93 @@
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+#welcome {
+    background-color: dodgerblue;
+    color: white;
+}
+
+#video {
+    width: 100%;
+    height: 500px;
+}
+
+#map {
+    width: 700px;
+    height: 500px;
+}
+
+.life_myDiv {
+    border: 1px solid #c7c7c7;
+    padding: 5px;
+    width: 33.33%;
+    float: left;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.life_myDiv h5,
+.life_myDiv p {
+    margin-left: 20px;
+}
+
+.life_myDiv img {
+    width: 100%;
+    height: 300px;
+}
+
+.life_myDiv hr {
+    width: 100%;
+}
+
+#sc {
+    padding-bottom: 25px;
+}
+
+.achsID {
+    padding-bottom: 20px;
+}
+
+.acht {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.acht i {
+    float: right;
+}
+
+.wt_li {
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.wt_li img {
+    height: 15%;
+    width: 300px;
+    border-radius: 25px;
+}
+
+#wtli2 {
+    background-color: cornsilk;
+    color: saddlebrown;
+}
+
+.alumini {
+    cursor: pointer;
+}
+
+.alumini img {
+    height: 300px;
+    width: 300px;
+}
